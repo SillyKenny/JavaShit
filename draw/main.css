@@ -1,0 +1,58 @@
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+.right_side_bar {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   margin: 0px;
+   padding: 8px;
+   width: 80px;
+   border-left: solid 1px #000000;
+   height: 100%;
+   background: #ffffff;
+}
+
+.side_bar {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   margin: 0px;
+   padding: 8px;
+   width: 80px;
+   border-right: solid 1px #000000;
+   height: 100%;
+}
+
+.icon {
+   width: 64px;
+   height: 64px;
+}
+
+.main {
+   position: absolute;
+   top: 0px;
+   left: 84px;
+   padding: 8px;
+   width: calc(100% - 168px);
+   height: 100%;
+}
+
+.canvas {
+   width: 100%;
+   height: 100%;
+}
+
+/* stupid chrom */
+.vertical {
+	margin: 24px;
+	writing-mode: vertical-lr;
+	direction: rtl;
+	height: 180px;
+}
+
+* {
+   box-sizing: border-box;
+}
